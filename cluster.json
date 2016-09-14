@@ -1,12 +1,12 @@
 {
   "Hive": {
-    "ConnectionString": "jdbc:hive2://192.168.30.53:10000/;impersonnation_enable=true;",
-    "LoginTimeout": 10000,
+    "ConnectionString": "jdbc:hive2://192.168.100.125:10000/;impersonnation_enable=true;",
+    "LoginTimeout": 100000,
     "Port": 10000,
     "Servers": [
-      "192.168.30.53"
+      "192.168.100.200"
     ],
-    "username": "hive",
-    "query": "SELECT * FROM example1"
+    "username": "hadoop",
+    "query": "show tables"
   }
 }
